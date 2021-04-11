@@ -59,4 +59,8 @@ form.addEventListener('submit', function(e) {
     } else {
         showSuccess(password2);
     }
+    console.log('username '+ username.value);
+    console.log('email '+ email.value);
+    console.log('password '+ password.value);
+    console.log('password2 '+ password2.value);
 });
