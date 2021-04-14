@@ -17,6 +17,16 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+body {
+
+  background: red;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: aqua;}
+  to {background-color: blue;}
+}
 
 .container {
   background-color: #ffffff;
