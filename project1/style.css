@@ -19,14 +19,9 @@ body {
 }
 body {
 
-  background: red;
-  animation: mymove 5s infinite;
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
 
-@keyframes mymove {
-  from {background-color: aqua;}
-  to {background-color: blue;}
-}
 
 .container {
   background-color: #ffffff;
