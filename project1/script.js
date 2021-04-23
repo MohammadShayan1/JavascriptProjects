@@ -63,5 +63,4 @@ form.addEventListener('submit', function(e) {
     console.log('email '+ email.value);
     console.log('password '+ password.value);
     console.log('password2 '+ password2.value);
-    alert(username.value +' welcome to artistic hive');
 });
