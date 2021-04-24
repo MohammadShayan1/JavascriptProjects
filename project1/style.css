@@ -18,10 +18,17 @@ body {
   margin: 0;
 }
 body {
-
-  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
 }
-
 
 .container {
   background-color: #ffffff;
@@ -75,12 +82,10 @@ h2 {
 }
 
 button {
-  background-color: var(--primarycolor);
+  background-image: linear-gradient(to right, yellow, green, blue);
   padding: 10px;
-  margin: 10px;
+  margin: 1.1px;
   width: 100%;
-  border-radius: 5px;
-  border-color: #4CAF50;
   color: white;
   font-size: 16px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -95,8 +100,7 @@ button {
 }
 
 button:hover {
-  background-color: #4CAF50; /* Green */
+  background-color: #4caf50; /* Green */
   color: white;
   box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
 }
-
