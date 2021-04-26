@@ -15,26 +15,19 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  margin: 0;
+  margin: 0px;
 }
 body {
-  background-image: linear-gradient(
-    to right,
-    red,
-    orange,
-    yellow,
-    green,
-    blue,
-    indigo,
-    violet
-  );
+  background-color: gray;
 }
 
 .container {
+  
   background-color: #ffffff;
-  border-radius: 20px;
+  border-radius: 5px;
   box-shadow: 0 2px 10px #0000004d;
-  width: 600px;
+  width: 350px;
+  margin-right: 13px;
 }
 
 h2 {
@@ -64,11 +57,12 @@ h2 {
   width: 100%;
   padding: 10px;
   font-size: 14px;
+  width: 250px;
 }
 
 .form-control input:focus {
   outline: 0;
-  border-color: var(--primarycolor);
+  border-color: #ddd7d7;
   background-color: #ddd7d7;
 }
 .form-control.success input {
@@ -81,20 +75,35 @@ h2 {
   visibility: visible;
 }
 
-button {
-<<<<<<< Updated upstream
-  background-image: linear-gradient(to right, yellow, green, blue);
-=======
- background-image: linear-gradient(to right,yellow,green,blue);
->>>>>>> Stashed changes
-  padding: 10px;
-  margin: 1.1px;
-  width: 100%;
+.submit {
+  background-color: #f5a207;
+  border: none;
   color: white;
   font-size: 16px;
+  align-items: center;
+  border-radius: 10px;
+  width: 100%;
+  height: 40px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
 }
+.home {
+  background-color: #f5a207;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 0px 0px;
+  opacity: 0.6;
+  border-radius: 5px;
+  transition: 0.3s;
+  width: 100%;
+}
+.home:hover {opacity: 1}
+
+
 small {
   visibility: hidden;
 }
@@ -104,7 +113,6 @@ button {
 }
 
 button:hover {
-  background-color: #4caf50; /* Green */
   color: white;
   box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
 }
